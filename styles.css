@@ -1,0 +1,72 @@
+body,
+html {
+  background: url('https://www.pixelstalk.net/wp-content/uploads/2016/12/Coffee-Bean-Desktop-Background.jpg')
+    no-repeat fixed center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Leckerli One', cursive;
+  color: #9da55e;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  text-align: center;
+  background-color: burlywood;
+}
+
+li {
+  display: inline;
+  margin: 0.25em;
+  font-size: 1.4rem;
+}
+
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #9da55e;
+  cursor: pointer;
+}
+
+.middle-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1em;
+  flex-wrap: wrap;
+  padding: 4.7rem;
+}
+
+.left-pane,
+.right-pane {
+  width: 25%;
+  min-width: 350px;
+  max-height: 870px;
+  padding: 0.25rem 0.5rem;
+  background-color: rgba(166, 42, 42, 0.9);
+  border-radius: 3px;
+  text-align: center;
+  font-size: 1.2rem;
+  /* box-shadow: black 0px 22px 70px 4px; */
+}
+
+footer {
+  background-color: burlywood;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Leckerli One', cursive;
+  color: #9da55e;
+}
+
+.main-container {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+}
